@@ -1,5 +1,5 @@
 module.exports = {
   service: {
-    name: 'space-explorer',
+    name: 'spacex-9249',
   },
 };
