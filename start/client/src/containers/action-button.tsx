@@ -14,7 +14,7 @@ const TOGGLE_CART = gql`
 
 export const CANCEL_TRIP = gql`
   mutation cancel($launchId: ID!) {
-    cancelTrip(launchId: $$launchId) {
+    cancelTrip(launchId: $launchId) {
       success
       message
       launches {
